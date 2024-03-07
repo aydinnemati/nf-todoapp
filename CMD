@@ -1,0 +1,13 @@
+curl -X POST -H 'Content-Type: application/json' -d '{"username": "a", "password": "1234"}' http://localhost:3000/signup
+
+
+Curl
+
+curl -X 'POST' \
+  'http://localhost:3000/todos' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTM2M2IyMjY0YTEwYzFlMTVjMTAzYyIsImlhdCI6MTcwOTQwMTMzNH0.ilf2rZdJPjGc1mMTnm6zZGHGgmZLRg5ILmzJa1StKjA' \
+  -d '{
+  "description": "testtodo"
+}'
